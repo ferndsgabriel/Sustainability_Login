@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/output.css">
+    <title>Sustentabilidade</title>
+
+    <style>
+        input[type="checkbox"]:checked + span {
+            background-color: green; 
+        }
+    </style>
+</head>
+
+<body>
+    <main class="w-full h-screen flex flex-row">
+        <section class="flex-1 p-4 flex items-center justify-center h-full">
+            <div class="flex items-center flex-col w-full gap-4">
+                <div class="flex flex-col items-center gap-2">
+                    <div class="h-44 w-44 animate-borderUser flex items-center justify-center rounded-f p-2 rounded-full origin-center relative">
+                        <div class="bg-green-700 rounded-full w-full h-full overflow-hidden flex items-center justify-center p-4">
+                            <img src="../assets/user.png" alt="User login" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <h1 class="text-green-900 font-bold uppercase text-xl">Login</h1>
+                </div>
+                <form class= "flex flex-col gap-4 w-full">
+                    <input type="text" placeholder="Digite seu email..."  
+                    class="h-10 rounded outline-none p-2 text-sm bg-green-50 text-green-800 placeholder:text-gray-500
+                    focus:bg-green-200">
+
+                    <input type="password" placeholder="****************"  
+                    class="h-10 rounded outline-none p-2 text-sm bg-green-50 text-green-800 placeholder:text-gray-500
+                    focus:bg-green-200">
+
+                    <div class="w-full flex justify-between items-center">
+                        <label class="flex items-center justify-center gap-2 h-full">
+                            <input type="checkbox" class="hidden">
+                            <span class="h-4 w-4 border-2 rounded"></span>
+                            <p>Lembrar senha</p>
+                        </label>
+                        <a href="#" class="font-medium text-green-800 hover:text-green-600 duration-500">Esqueceu sua senha?</a>
+                    </div>
+
+                    <button class="bg-green-700 h-10 rounded text-white font-bold hover:bg-green-600 duration-500">Entrar</button>    
+                </form>
+                <p>Não possuí uma conta?<a href="#"class="font-medium text-green-800  hover:text-green-600 duration-500">Criar uma conta</a></p>
+            </div>
+        </section>
+
+        <section class="flex-1 hidden md:flex bg-green-800 p-4 h-full items-center justify-center flex-col gap-8">
+            <h1 class="text-white text-2xl text-center max-w-md">A sustentabilidade se resume em três palavras: <strong class="text-green-200">reduzir, reusar, reciclar.</strong></h1>
+            <img src="../assets/sustentabilidade.png" alt="Palmeiras logo"
+            class="w-full max-w-lg"/>
+        </section>
+    </main>
+
+</body>
+</html>
