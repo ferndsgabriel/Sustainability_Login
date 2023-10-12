@@ -1,6 +1,6 @@
 {
         "build": {
-        "out": "./src/pages"
+        "out": "build"
         }
     }
     
