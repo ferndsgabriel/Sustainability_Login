@@ -596,7 +596,7 @@ video {
 
 @keyframes borderUser {
   0% {
-    background-color: White;
+    background-color: #fff;
   }
 
   50% {
