@@ -596,7 +596,7 @@ video {
 
 @keyframes borderUser {
   0% {
-    background-color: #fff;
+    background-color: White;
   }
 
   50% {
@@ -681,7 +681,7 @@ video {
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .p-2 {
